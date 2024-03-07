@@ -1,0 +1,60 @@
+#========= Fortran =========#
+
+*.mod
+*.o
+output.txt
+.vscode
+app
+*.swp
+*.dat
+
+#========= Markov =========#
+
+a.out
+
+#========= C++ =========#
+
+# Compiled binary files:
+*.out
+*.o
+*.a
+*.exe
+
+# Possible build output directories:
+build/
+bin/
+obj/
+dist/
+
+# IDE/Editor-specific files and directories:
+.vscode/
+.idea/
+*.suo
+*.sln
+*.user
+*.suo
+*.userprefs
+*.sublime-project
+*.sublime-workspace
+
+# Possible generated/temporary files:
+*.log
+*.bak
+*.swp
+
+# Operating system/editor backup files:
+*~
+
+#========= ASM coursework =========#
+
+# Ignore .vscode directory.
+.vscode/
+
+# Ignore build directory.
+build/
+
+# Ignore old directory.
+old/
+
+#========= Windows auto-generated ADS files =========#
+*:Zone.Identifier
