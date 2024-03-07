@@ -10,3 +10,6 @@
 [submodule "discrete"]
 	path = discrete
 	url = https://github.com/seigtm/markov
+[submodule "llvm"]
+	path = llvm
+	url = https://github.com/seigtm/llvm-setup
