@@ -1,3 +1,6 @@
 [submodule "fortran"]
 	path = fortran
 	url = https://github.com/seigtm/fortran_examples
+[submodule "circuit"]
+	path = circuit
+	url = https://github.com/seigtm/circuitry-spbpu-homework
