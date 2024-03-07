@@ -4,3 +4,6 @@
 [submodule "circuit"]
 	path = circuit
 	url = https://github.com/seigtm/circuitry-spbpu-homework
+[submodule "cpp"]
+	path = cpp
+	url = https://github.com/seigtm/cpp-spbpu-homework
