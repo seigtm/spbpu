@@ -1,0 +1,10 @@
+BEGIN
+  n := READ;
+  factorial := 1;
+  i := 1;
+  WHILE i <= n DO
+    factorial := factorial * i;
+    i := i + 1
+  OD;
+  WRITE(factorial)
+END

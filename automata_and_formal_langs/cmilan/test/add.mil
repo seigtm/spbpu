@@ -1,0 +1,7 @@
+BEGIN
+        i := 1;
+        j := 2;
+        k := i + j;
+        WRITE(k)
+END
+

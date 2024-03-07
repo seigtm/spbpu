@@ -1,0 +1,17 @@
+/* Вычисление N-го числа Фибоначчи */
+
+BEGIN
+        a := 1;
+        b := 1;
+        n := READ;
+        
+        WHILE n > 1 DO
+                t := a;
+                a := b;
+                b := b + t;
+                n := n - 1
+        OD;
+
+        WRITE(a)
+END
+

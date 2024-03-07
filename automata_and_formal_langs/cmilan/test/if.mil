@@ -1,0 +1,8 @@
+BEGIN
+        i := 1;
+        j := 2;
+        
+        IF i < j THEN WRITE(i) FI;
+        IF i < j THEN WRITE(i) ELSE WRITE(j) FI
+END
+

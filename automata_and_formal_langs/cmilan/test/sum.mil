@@ -1,0 +1,9 @@
+BEGIN
+    i := 8;
+    j := 2;
+
+    WHILE i != j DO
+        IF i < j THEN j := j - i ELSE i := i - j FI
+    OD;
+    WRITE(i)
+END

@@ -1,0 +1,17 @@
+BEGIN
+        /* Read a number */
+
+        i := READ;
+
+        /* Count from 0 to this number */
+
+        IF i > 0 THEN step := 1 ELSE step := -1 FI;
+        k := 0;
+        WHILE k != i DO
+                WRITE(k);
+                k := k + step
+        OD;
+
+        WRITE(i)
+END
+        

@@ -1,0 +1,14 @@
+BEGIN
+        N := READ;
+        P := READ;
+
+        S := 1;
+
+        WHILE P > 0 DO
+                S := S * N;
+                P := P - 1
+        OD;
+
+        WRITE(S)
+END
+

@@ -1,0 +1,8 @@
+BEGIN
+        IF READ < READ
+        THEN
+                WRITE(1)
+        ELSE
+                WRITE(2)
+        FI
+END

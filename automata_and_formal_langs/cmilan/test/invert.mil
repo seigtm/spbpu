@@ -1,0 +1,14 @@
+BEGIN
+  x := READ;
+  x := -x;
+
+  WRITE(-x);
+
+  IF -x > 0 THEN x := 1 FI;
+
+  x := x + -1;
+  x := x - -x;
+
+  x := x -1
+END
+

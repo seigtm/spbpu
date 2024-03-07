@@ -1,0 +1,17 @@
+/* Greatest common divisor */
+
+BEGIN
+        a := READ;
+        b := READ;
+
+        WHILE a != b DO
+                IF a < b THEN
+                        b := b - a
+                ELSE
+                        a := a - b
+                FI
+        OD;
+
+        WRITE(a)
+END
+
