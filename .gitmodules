@@ -13,3 +13,6 @@
 [submodule "llvm"]
 	path = llvm
 	url = https://github.com/seigtm/llvm-setup
+[submodule "oop"]
+	path = oop
+	url = https://github.com/seigtm/oop-spbpu-homework
