@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grep -Phor "(?<=^|[\s(:])[A-Za-z]([A-Za-z0-9]|(?:[.-](?![.-])))*\@([A-Za-z0-9-]+\.)+[A-Za-z]{2,10}(?=$|[\s)])" | tr A-Z a-z | sort | uniq >allemails.lst
